@@ -1,20 +1,18 @@
 package model;
 
-import java.sql.Date;
-
 public class Cliente {
 
-	private int cpf;
+	private String cpf;
 	private String nome;
 	private String email;
 	private float limite_de_credito;
-	private Date dt_nascimento;
+	private String dt_nascimento;
 
-	public int getCpf() {
+	public String getCpf() {
 		return cpf;
 	}
 
-	public void setCpf(int cpf) {
+	public void setCpf(String cpf) {
 		this.cpf = cpf;
 	}
 
@@ -42,11 +40,11 @@ public class Cliente {
 		this.limite_de_credito = limite_de_credito;
 	}
 
-	public Date getDt_nascimento() {
+	public String getDt_nascimento() {
 		return dt_nascimento;
 	}
 
-	public void setDt_nascimento(Date dt_nascimento) {
+	public void setDt_nascimento(String dt_nascimento) {
 		this.dt_nascimento = dt_nascimento;
 	}
 
